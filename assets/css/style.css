@@ -226,3 +226,51 @@ img {
 
 
 /* End of my-projects styling */
+/* Start of contact-me styling */
+
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact-title {
+    font-size: 3vw;
+    border-right: 3px solid var(--secondary-color);
+    height: 90px;
+    display: flex;
+    color: var(--secondary-color);
+    margin-top: 30px;
+    padding-right: 60px;
+    margin-left: 40px;
+    text-align: right;
+}
+
+.contact-info ul {
+    display: flex;
+    align-self: center;
+    list-style: none;
+    justify-content: space-between;
+    width: 70%;
+    font-size: 1vw;
+
+}
+
+.contact {
+    margin-left: 70px;
+    color: var(--secondary-color);
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border: 10px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.contact:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    opacity: 0.9;
+}
+/* End of contact me section */

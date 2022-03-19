@@ -63,3 +63,31 @@ header nav ul {
 
 
 /* End of header styling */
+/* Start of hero styling */
+
+.hero {
+    display: flex;
+    justify-content: right;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: contain;
+}
+
+.hero-sub {
+    padding: 10px;
+    margin: 100px 40px 40px 0px;
+    background-image: url(../images/hero-bg.2jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 1.75vw;
+    border-radius: 10px 10px;
+    color: var(--secondary-color);
+}
+
+.hero-sub p {
+    font-size:20px;
+}
+
+.hero-sub h3 {
+    opacity:0.7;
+}
+/* End of hero styling */

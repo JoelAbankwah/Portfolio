@@ -91,3 +91,39 @@ header nav ul {
     opacity:0.7;
 }
 /* End of hero styling */
+/* Start of about-me styling */
+
+.about {
+    padding-top: 20px;
+    margin: 20px 0 40px 20px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   color: var(--primary-color); 
+}
+
+.about h2 {
+    margin-right: 60px;
+    padding: 0 65px 10px 20px;
+    text-align: right;
+    color: var(--secondary-color);
+    font-size: 3.5vw;
+    border-right: 3px solid var(--secondary-color);
+    display: block;
+    color: var(--secondary-color); 
+}
+
+.about p {
+    font-size: 1.16vw;
+    margin-left: 10px;
+    line-height: 1.8vw;
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+.bio {
+    display: flex;
+}
+
+
+/* End of about-me styling */
